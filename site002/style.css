@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primaryfont: "Work Sans", sans-serif;
+  --paragraphs: 16px;
+  --Purple: hsl(275, 100%, 97%);
+  --Purple600: hsl(292, 16%, 49%);
+  --Purple950: hsl(292, 42%, 14%);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    min-width: 375px;
+    background-color: var(--Purple);
+    font-family: var(--primaryfont);
+    font-weight: 400;
+    text-align: justify;
+}
+
+header{
+    height: 250px;
+    width: 100%;
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+section h2{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+
+section .icon{
+    cursor: pointer;
+}
+
+
+div.container{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top: -120px;
+    border-radius: 15px;
+    height: 500px;
+}
+
+div.container h1{
+    font-size: 4rem;
+    padding-left: 40px;
+}
+
+div.container h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+div.container p{
+    line-height: 1.5rem;
+    font-size: var(--paragraphs);
+    color: var(--Purple600);
+    padding: 0px 40px;
+}
+
+.container > .subtitle{
+    border-top: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.icon{
+    display: inline;
+}
+
+#star{
+    padding-right: 20px;
+}
+
+#title{
+    padding-left: 10px;
+}
+
+
+
+
+
