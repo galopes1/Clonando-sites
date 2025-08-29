@@ -17,7 +17,7 @@ body{
     background-color: var(--Purple);
     font-family: var(--primaryfont);
     font-weight: 400;
-    text-align: justify;
+    text-align: left;
 }
 
 header{
@@ -33,7 +33,12 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 18px 20px;
+    cursor: pointer;
+}
+
+section.open{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 section h2{
@@ -65,7 +70,11 @@ div.container h1{
 
 div.container h2{
     font-weight: 600;
-    font-size: 18px;
+    font-size: var(--paragraphs);
+    color: var(--Purple600);
+    padding: 0 56px;
+    text-align: justify;
+
 }
 
 div.container p{
@@ -75,15 +84,27 @@ div.container p{
     padding: 0px 40px;
 }
 
+.firstsub2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 56px;               
+  width: 100%;
+}
+
+div.firstsub h2{
+    padding: 0;
+}
+
 .container > .subtitle{
     border-top: 1px solid rgba(0, 0, 0, 0.075);
 }
 
 .icon{
-    display: inline;
+    flex-shrink: 0;
 }
 
-#star{
+ #star{
     padding-right: 20px;
 }
 
