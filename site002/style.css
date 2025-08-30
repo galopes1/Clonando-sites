@@ -32,8 +32,7 @@ header{
 section{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
+    padding: 30px 40px;
 }
 
 section h2{
@@ -43,7 +42,12 @@ section h2{
 }
 
 section .icon{
+    margin-left: 40px;
     cursor: pointer;
+}
+
+.border{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.071);
 }
 
 
@@ -51,11 +55,11 @@ div.container{
     background-color: white;
     width: 600px;
     margin: auto;
-    padding: 20px;
+    padding: 5px 20px;
     position: relative;
     top: -120px;
     border-radius: 15px;
-    height: 500px;
+    height: 600px;
 }
 
 div.container h1{
